@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "test_requests"
+version = "0.1.0"
+description = ""
+authors = ["Pavel Khramov <paul.khramov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.23.0"
+urlextract = "^1.7.1"
+flake8 = "^5.0.4"
+fake-headers = "^1.0.2"
+coverage = "^6.5.0"
+pytest-cov = "^4.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
